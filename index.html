@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Preview</title>
+	<style>
+			@font-face {
+			font-family: work-sans;
+			src: url(fonts/WorkSans-VariableFont_wght.ttf);
+		}	
+		body {
+			background-image: url(pic/bg-main.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.button {
+			font-family: Work-sans;
+			background-color: black;
+			color: white;
+			padding: 30px 60px;
+			font-size: 30px;
+			border-radius: 50px;
+			position: fixed;
+			bottom: 70px;
+			left: 25%;
+			transform: translateX(-50%);
+		}
+
+		.top-right {
+			background-image: url(pic/logo.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			width: 80%;
+			height: 80%;
+			position: absolute;
+			top: 42%;
+			right: 0%;
+			transform: translate(50%, -50%);
+		}
+
+		.top-text {
+			font-weight: 700;
+		  font-family: Work-sans;
+		  position: absolute;
+		  top: 40%;
+		  left: 10%;
+		  transform: translateY(-50%);
+		  font-size: 35px;
+		  color: rgb(0, 0, 0);
+		  line-height: 1.5;
+		  max-width: 35%;
+		  text-indent: 0.em;
+		}
+	</style>
+</head>
+<body>
+	<div class="top-left"></div>
+	<div class="top-right"></div>
+	<p class="top-text">  By cooperating with almau university and FC Kairat, for students of almau you can get a free ticket to the club's match</p>
+	<button class="button" onclick="window.location.href='main.html'">Get a ticket</button>
+</body>
+</html>
